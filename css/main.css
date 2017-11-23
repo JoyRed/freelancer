@@ -1,3 +1,143 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  border; 0;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: "Montserrat";
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 50px;
+  color:#2C3E50;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Lato";
+}
+
+hr {
+  border: solid;
+  width: 220px;
+}
+
+#main-header {
+	background: #2C3E50;
+	color: #FFF;
+  font-family: "Montserrat";
+	height: 100px;
+  left: 0;
+  position: fixed;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+}
+
+#main-header a {
+	color: #FFF;
+}
+
+#logo-header {
+	float: left;
+	padding: 20px 0 0 20px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+	color: #0b76a6;
+}
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 30px;
+  padding: 10px 55px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  padding: 10px 90px 0 25px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #18BC9C;
+}
+
+.greencontainer {
+  background-color: #18BC9C;
+  color:#FFF;
+  height: 800px;
+  text-align: center;
+  width: 100%;
+  padding-top: 170px;
+}
+
+.whitecontainer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.greencontainer2 {
+  background-color: #18BC9C;
+  color:#FFF;
+  height: 550px;
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.greencontainer2 h2 {
+  color: #FFF;
+}
+
+#about div p {
+  display: inline-block;
+  font-family: "Lato";
+  font-size: 20px;
+  padding: 20px 30px 30px 20px;
+  line-height: 15px;
+  text-align: justify;
+  text-align-last: left;
+}
+
+section div .row img {
+  padding: 15px 15px 15px 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  background-color:#2C3E50;
+  color: #FFF;
+}
+
+footer div .text-center .black {
+  background-color: black;
+}
